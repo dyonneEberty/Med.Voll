@@ -1,0 +1,11 @@
+# Configurations so that Spring Data can connect to the application's DB correctly
+spring:
+  datasource:
+    # If Spring Boot doesn't automatically find the MySQL driver in the project
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # Provides the DB connection URL
+    url: jdbc:mysql://localhost:3306/vollmed_api
+    # Informs the DB user
+    username: root
+    # Informs the DB password
+    password: root!@

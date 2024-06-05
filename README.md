@@ -14,9 +14,10 @@
 Before you can run the project you'll need the following technologies and dependencies:
   - [Java 22](https://www.java.com/pt-BR/download/) at least;
   - [Spring Boot](https://start.spring.io/);
+  - Validation
+  - Lombok
   - JPA (Java Persistence API);
-  - Jackson (for deserialization of JSON);
-  - [Database (PostgreSQL)](https://www.postgresql.org/download/);
+  - [Database (MySQL)](https://www.postgresql.org/download/);
   - [Maven](https://maven.apache.org/download.cgi);
     
 Clone the repository
