@@ -20,7 +20,7 @@ public class MedicoController {
     private MedicoRepository repository;
 
     @PostMapping
-    @Transactional // Indica transação ativa
+    @Transactional // Indicates active transaction
     public void cadastrar(@RequestBody @Valid DadosCadastroMedico dados) {
 
         repository.save(new Medico(dados));
