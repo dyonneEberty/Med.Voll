@@ -1,5 +1,8 @@
 # Configurations so that Spring Data can connect to the application's DB correctly
 spring:
+  jpa:
+    show-sql: true
+    properties.hibernate.format_sql: true
   datasource:
     # If Spring Boot doesn't automatically find the MySQL driver in the project
     driver-class-name: com.mysql.cj.jdbc.Driver
