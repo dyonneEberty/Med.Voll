@@ -7,8 +7,8 @@ spring:
     # If Spring Boot doesn't automatically find the MySQL driver in the project
     driver-class-name: com.mysql.cj.jdbc.Driver
     # Provides the DB connection URL
-    url: jdbc:mysql://localhost:3306/vollmed_api
+    url: jdbc:mysql://${DB_HOST}:3306/${DB_NAME}
     # Informs the DB user
-    username: root
+    username: ${DB_USER}
     # Informs the DB password
-    password: root!@
+    password: ${DB_PASSWORD}
