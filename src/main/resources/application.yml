@@ -1,6 +1,7 @@
 # Configurations so that Spring Data can connect to the application's DB correctly
 spring:
   jpa:
+    # Displays DB queries and formats queries
     show-sql: true
     properties.hibernate.format_sql: true
   datasource:
