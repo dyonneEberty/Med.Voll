@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @RestControllerAdvice
 public class TratadorDeErros {
 
-    // Fix Erro 404
+    // Fix Error 404
     @ExceptionHandler(EntityNotFoundException.class)
     public ResponseEntity tratarErro404(){
 
         return ResponseEntity.notFound().build();
     }
 
-    // Fix Erro 400
+    // Fix Error 400
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity tratarErro400(MethodArgumentNotValidException ex) {
 
