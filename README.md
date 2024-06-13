@@ -4,8 +4,8 @@
   <img alt="Java" src="https://img.shields.io/badge/Java-22+-blue.svg">
   <img alt="Maven" src="https://img.shields.io/badge/Maven-3.0-blue.svg">
   <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-3.3.0-brightgreen.svg">
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-16.3-blue.svg">
-  <img alt="Status do Projeto" src="https://img.shields.io/badge/status-Build-green">
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-16.3-white.svg">
+  <img alt="Status do Projeto" src="https://img.shields.io/badge/Status-Build-red">
 </p>
 
 <p align="justify"> Application for medical clinic </p>
