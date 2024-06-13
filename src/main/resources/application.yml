@@ -1,4 +1,9 @@
 # Configurations so that Spring Data can connect to the application's DB correctly
+api:
+  security:
+    token:
+      secret: ${JWT_SECRET}
+
 server:
   error:
     include-stacktrace: never

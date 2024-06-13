@@ -19,6 +19,7 @@ Before you can run the project you'll need the following technologies and depend
   - JPA (Java Persistence API);
   - [Database (MySQL)](https://www.mysql.com/downloads/);
   - [Maven](https://maven.apache.org/download.cgi);
+  - Auth0 JAVA-JWT
     
 Clone the repository
     
